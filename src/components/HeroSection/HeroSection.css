@@ -1,0 +1,122 @@
+.hero-section {
+  height: 90vh;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+    background: linear-gradient(
+      180deg,
+      rgba(12, 8, 13, 0.8) 0%,
+      rgba(21, 41, 47, 0.8) 43.78%,
+      rgba(21, 41, 47, 0.8) 69.43%,
+      rgba(47, 65, 49, 0.8) 95.39%
+    );
+  }
+  
+  .hc {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+    
+  
+  }
+.hero-heading {
+  width: 80%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+  color: #dbd9dd;
+  margin-bottom: 16px;
+
+}
+
+.hero-paragraph {
+  width: 80%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #dbd9dd;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13.3333px 39.1111px;
+  gap: 8.89px;
+  width: 120.22px;
+  height: 30.67px;
+  background: #b9e937;
+  border-radius: 200px;
+  border: none;
+  color: #dbd9dd;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button span {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+/* Tablet version */
+@media (max-width: 810px) {
+
+
+  .hc {
+    max-width: 714px;
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+
+@media (max-width: 430px) {
+ 
+  .hc {
+    max-width: 302px;
+    width: 100%;
+    margin: auto;
+  padding-top: 40px;
+padding-bottom: 100px;}
+    .hero-section {
+      height: 100%;}
+    
+      .hero-heading {
+        width: 100%;
+        font-size: 30px;
+        line-height: 48px;
+      }
+      .hero-paragraph{
+        width: 100%;
+      }
+    
+    
+    
+    
+    
+    }
+
+    

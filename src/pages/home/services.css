@@ -1,0 +1,240 @@
+.servicesectionqq {
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
+margin: auto;
+max-width: 1000px;
+justify-content: center;
+
+}
+
+.upperdivqq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    gap: 20px;
+}
+.upperdivlineoneqq{
+    color: #B9E937;
+font-size: 21.333px;
+font-family: Poppins;
+font-weight: 600;
+}
+
+.upperdivlinetwoqq{
+    color: #DBD9DD;
+font-size: 40px;
+font-family: Poppins;
+font-weight: 600;
+}
+.upperdivlinethreeqq{
+    color: #DBD9DD;
+text-align: center;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 500;
+line-height: 36px;
+text-transform: capitalize;
+}
+
+.lowerdivqq{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+
+
+
+.circleqq {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #DCFF7E 0%, #BAFF00 100%);
+    margin-bottom: -50px;
+    margin-left: 40px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rowoneqq,
+.rowtwo, .hashira {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  gap: 40px;
+
+}
+
+  
+  .sqqq {
+    display: flex;
+    height: auto;
+    border-radius: 16px;
+    background: #181818;;
+    position: relative;
+  }
+.rowonerightqq,.rowoneleftqq{
+    display: flex;
+    flex-basis: 50%;
+width: 100%;
+}
+.squarecontents{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 40px;
+align-items: flex-start;
+margin-top: 10px;
+
+}
+.webdevelopment{
+    color: #DBD9DD;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+
+}
+.building{
+
+    color: #DBD9DD;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 500;
+line-height: 34px;
+}
+
+.btntext{
+    color: #DBD9DD;
+font-size: 14px;
+font-family: Poppins;
+font-weight: 500;
+line-height: 34px;
+}
+.btn{
+display: flex;
+    border-radius: 20px;
+background: #22251B;
+padding-right: 32px;
+padding-left: 32px;
+padding-top: 4px;
+padding-bottom: 4px;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+margin-top: 24px;
+justify-content: center;
+}
+.wdlogosvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .iconasdas{
+    margin-top: 4px;
+  
+  }
+
+  .squareqq:hover .iconasdas {
+    filter: invert(100%);
+  }
+
+
+  .squareqq:hover .sqqq {
+    background: rgba(29, 32, 39, 0.10);
+    box-shadow: -12.790212631225586px 12.790212631225586px 12.790212631225586px 0px rgba(255, 255, 255, 0.10) inset, 12.790212631225586px -12.790212631225586px 12.790212631225586px 0px rgba(22, 24, 30, 0.10) inset;
+    backdrop-filter: blur(12.790212631225586px);
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .squareqq:hover .btn {
+    background: #A5D91A;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  .squareqq:hover .btntext {
+    color: #000000;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+  @media (max-width: 810px) {
+    .servicesectionqq {
+      max-width: 714px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .sqqq{
+      height: 90%;
+    }
+    .squarecontents{
+      justify-content: space-between;
+    }
+  }  
+
+
+
+
+    /* Mobile version*/
+
+    @media (max-width: 430px) {
+
+      .servicesectionqq {
+        max-width: 302px;
+        width: 100%;
+        margin: auto;}
+    .rowoneqq, .rowtwo, .hashira{
+
+        flex-direction: column;
+      }
+      .upperdivlinetwoqq{
+        text-align: center;
+      }
+      .upperdivqq{
+        gap: 32px;
+      }
+      .upperdivlinetwoqq{
+        font-size: 30px;
+      }
+      .squarecontents{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 24px;
+        margin-top: 24px;
+        margin-bottom: 20px;
+       
+        
+        }
+        .circleqq{
+          width: 80px;
+          height: 80px;
+          margin-left: 20px;
+        }
+
+
+        .wdlogosvg{
+          width: 40%;
+        }
+      }
+  

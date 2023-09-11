@@ -1,0 +1,229 @@
+.sectiontwo{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+max-width: 1000px;
+margin: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+justify-content: center;
+gap: 60px;
+}
+
+.rightheading{
+
+ color: #DBD9DD;
+font-size: 32px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.rightpara{
+
+    color: #DBD9DD;
+font-size: 18px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+
+.leftsideimage{
+
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.rightside{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.background{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 32px;
+    background: rgba(187, 255, 4, 0.10);
+    }
+
+    .sectionthree{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+     padding: 32px;
+        justify-content: center;
+        gap: 24px;
+
+
+    }
+
+    .rightheadingt{
+
+        color: #B9E937;
+        font-size: 32px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+
+
+    .sectionfour{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        padding-bottom: 120px;
+        padding-right: 0%;
+        padding-top: 100px;
+        padding-left: 0%;
+        }
+
+        .up{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 16px;
+            padding: 0 0 60px 0;
+        }
+
+            .up #itemtwo {
+                color: #DBD9DD;
+                font-size: 32px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal; 
+            padding-top: 10px;   }
+
+                .up #itemthree {
+                    color: #DBD9DD;
+                    
+                    font-size: 18px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 36px;    }
+
+
+                    .downcontents{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 10px;
+                        padding: 0%;
+
+                    }
+
+                    .downll{
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 32px;
+                        padding: 0%;
+                    }
+
+                    .downcontentsh{
+
+                        color: #B9E937;
+font-size: 18px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+                    }
+
+                    .downcontentsp{
+
+                        color: #dbd9dd;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+                    }
+
+                    .lineone{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 16px;
+justify-content: center;
+
+
+
+                    }
+
+                    .ckeckimage{
+
+                        display: block;
+                        align-items: center;
+
+                    }
+
+
+@media (max-width: 810px) {
+.sectiontwo, .background {
+max-width: 714px;
+ width: 100%;
+ margin: auto;
+  }
+ .sectionfour{
+    max-width: 714px;
+ width: 100%;
+ margin: auto;
+ }
+ .sectiontwo {
+    flex-direction: column-reverse;
+ }
+ .sectionthree{
+    flex-direction: column-reverse;
+    gap: 40px;
+ }
+ }
+
+ @media (max-width: 430px) {
+
+    .sectiontwo, .background, .sectionfour {
+      max-width: 302px;
+      width: 100%;
+      margin: auto;}
+    .rightheading, .rightheadingt{
+        font-size: 30px;
+    }
+    .up #itemtwo{
+        font-size: 30px;
+    }
+    .downcontentsp{
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .downll{
+        gap: 40px;
+    }
+
+
+
+
+
+}
+

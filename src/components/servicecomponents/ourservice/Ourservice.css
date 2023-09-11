@@ -1,0 +1,132 @@
+.section {
+    display: flex;
+    background-color: #181818;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .block {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+padding: 120px 0 120px 0;
+gap: 32px;
+  }
+   
+  .divu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .headingos{font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+font-size: 40px;
+    font-size: px;
+    color: #FFFFFF;
+    }
+
+    .paragraphors {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #FFFFFF;
+      line-height: 34px;
+      text-align: center; /* Center alignment for desktop */
+      padding-bottom: 20px;
+    }
+  
+  .divuu, .divul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .divl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .divlroneosg, .divlrtwoosg, .divlrthreeosg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  
+  .divlroner, .divlronel, .divlrtwor, .divlrtwol, .divlrthreer, .divlrthreel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 18px;
+
+  }
+  
+  .headingosg {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+color: #B9E937;
+  }
+  
+  .paragraphosg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 34px;
+    
+  }
+
+
+  @media (max-width: 810px) {
+    .block {
+      max-width: 714px;
+      width: 100%;
+      margin: auto;
+    }
+    .divlroneosg, .divlrtwoosg, .divlrthreeosg, .divlrfourosg {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 48px;
+  }
+  }
+
+
+  @media (max-width: 430px) {
+    .block {
+      max-width: 302px;
+      width: 100%;
+      margin: auto;
+    }
+    
+    .paragraphors {
+      text-align: left; /* Align paragraphos to the left */
+    }
+    
+    .headingos {
+      font-size: 30px;
+    }
+    
+    .number {
+      font-size: 30px;
+    }
+    
+    .headingosg {
+      font-size: 24px;
+    }
+  }
+  

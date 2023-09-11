@@ -1,0 +1,147 @@
+.color {
+  background: #0C080F;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: static;
+  max-width: 1000px;
+  margin: auto;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 18px;
+  color: #dbd9dd;
+  cursor: pointer;
+  display: none;
+}
+
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  position: relative;
+  float: left;
+  font-size: 18px;
+  padding: 20px;
+  color: #dbd9dd;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tory{
+  position: relative;
+  float: left;
+  font-size: 18px;
+  padding: 20px;
+  color: #dbd9dd;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header .navbar ul li a:hover {
+  color: #b9e937;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  padding: 20px;
+  background: #333;
+  display: none;
+  margin-top: 60px;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+
+  header label {
+    display: initial;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    right: 0;
+    background: #222;
+    display: none;
+    height: 100%;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+  }
+
+  header .navbar ul li ul {
+    position: static;
+    width: 100%;
+    background: #111;
+    padding: 10px 0;
+    margin-top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  header .navbar ul li ul li {
+    border-top: none;
+  }
+
+  header .navbar ul li ul li a {
+    padding: 10px 20px;
+    color: #dbd9dd;
+  }
+
+  header .navbar ul li ul li a:hover {
+    color: #b9e937;
+  }
+
+  header .navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: block;
+  }
+}
+
+@media (max-width: 430px) {
+  header {
+    max-width: 302px;
+    width: 100%;
+    margin: auto;
+  }
+}

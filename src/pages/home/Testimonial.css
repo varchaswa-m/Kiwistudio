@@ -1,0 +1,340 @@
+.sectiontestimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  flex-direction: row;
+  }
+
+  .parat{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+  }
+
+  .headingt{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+text-align: left;
+
+color: #FFFFFF;
+}
+
+.paragrapht{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    
+
+}
+
+  
+  
+  .leftt {
+    flex: 1;
+    margin-right: 36px;
+    
+  }
+  
+  .left-contentt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .rightt {
+    flex: 1;
+    margin-left: 36px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .rounded-squaret {
+    
+    background: #181818;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 24px;
+    width: 540px;
+    height: auto;
+    left: 517px;
+    top: 4275px;
+    background: #181818;
+    border-radius: 24px;
+
+  }
+  
+  .testimonialt {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    align-items: flex-start;
+  }
+  
+  .persont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .photot {
+    width: 80px;
+    height: 80px;
+    /* Add styles for the person's photo */
+  }
+  
+  .namet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;  }
+  
+  .designationt {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+  }
+  
+  .ballst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+    margin-left: 50%;
+    
+  }
+  
+  .ball1 {
+    width: 12px;
+height: 12px;
+background: #B9E937;
+border-radius: 10px;
+cursor: pointer;
+  }
+
+  .ball2,
+  .ball3 {
+    width: 12px;
+height: 12px;
+background: #FFFFFF;
+opacity: 0.6;
+border-radius: 10px;
+cursor: pointer;
+  }
+
+
+
+
+  .sectiont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px;
+  }
+  
+  .leftt {
+    flex: 1;
+    margin-right: 36px;
+  }
+  
+  .left-contentt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .rightt {
+    flex: 1;
+    margin-left: 36px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .rounded-squaret {
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    gap: 24px;
+    width: 540px;
+    height: auto;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  .testimonialt {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    align-items: flex-start;
+    word-wrap: break-word;
+  }
+  
+  .persont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .photot {
+    width: 80px;
+    height: 80px;
+    /* Add styles for the person's photo */
+  }
+  
+  .namet {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  
+  .designationt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  
+  .ballst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+    margin-left: 50%;
+  }
+  
+  .ball1,
+  .ball2,
+  .ball3 {
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    opacity: 0.6;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .ball1.active,
+  .ball2.active,
+  .ball3.active {
+    background: #b9e937;
+    opacity: 1;
+  }
+  
+
+
+ @media (max-width: 810px) {
+    .sectiontestimonial {
+      max-width: 714px;
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+      gap: 40px;
+    }
+.leftt{
+  padding: 0%;
+  margin: 0%;
+}
+.rightt{
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  justify-content: center;
+}
+
+
+  }
+
+
+  
+  /* Mobile version*/
+
+  @media (max-width: 430px) {
+
+    .sectiontestimonial {
+      max-width: 302px;
+      width: 100%;
+      margin: auto;}
+      .headingt{
+        font-size: 30px;
+      }
+      .rounded-squaret{
+        padding: 32px;
+      }
+  .persondetails{
+
+      display: flex;
+      flex-direction: column;
+    }
+    .left-contentt{
+      display: flex;
+      align-items: center;
+    }
+.headingt{
+  text-align: center;
+}
+.paragrapht{
+  text-align: center;
+}
+
+
+    }

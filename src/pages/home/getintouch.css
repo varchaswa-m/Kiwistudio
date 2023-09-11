@@ -1,0 +1,173 @@
+.getintouch {
+  background-color: #181818;
+ margin-top: 100px;
+}
+.cont{
+  display: flex;
+max-width: 1000px;
+margin-right: auto;
+margin-left: auto;
+flex-direction: column;
+width: 100%;
+gap: 40px;
+}
+.heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.para {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.upperdivnod {
+  display: flex;
+  flex-direction: column;
+}
+
+.lowerdivnod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px;justify-content: center;
+
+}
+
+.leftdiv {
+  flex: 1;
+}
+
+.rightdiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.row1abc,
+.row2abc,
+.row3abc {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.row3abc {
+  height: 160px;
+  width: auto;
+  margin-bottom: 24px;
+}
+
+input[type='text'],
+textarea {
+  padding: 10px;
+  margin-right: 10px;
+  border: rgba(255, 255, 255, 0.5);
+  border-radius: px;
+  background-color: #000000; /* Black color for the text fields */
+  color: #FFFFFF; /* Semi-transparent white background */
+  flex: 1;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+resize: none;
+}
+
+.cta-button2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13.3333px 20.1111px;
+  gap: 8.89px;
+  width: 80.22px;
+  height: 30.67px;
+  background: #B9E937;
+  border-radius: 200px;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button2:hover{
+  background: #ffffff;
+}
+
+
+
+@media (max-width: 810px) {
+
+
+    .cont {
+      max-width: 714px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .lowerdivnod{
+
+      flex-direction: column;
+    }
+  
+  }
+
+
+  
+  /* Mobile version*/
+
+  @media (max-width: 430px) {
+
+.getintouch {
+
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+    .cont{
+      max-width: 302px;
+      width: 100%;
+      margin: auto;
+    }
+  
+  .row1abc{
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+  }
+.cta-button2{
+ 
+  max-width: 240px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+
+}
+  .leftdiv img{
+    max-width: 342px;
+    width: 100%;
+    margin: auto;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  }

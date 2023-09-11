@@ -1,0 +1,148 @@
+.sectionben {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+padding: 120px 0 120px 0;
+
+}
+
+.circleben {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #181818;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.blockben {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 0%;
+  gap: 40px;
+}
+
+.divu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.headingos {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  font-size: px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.paragraphos {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.divuu,
+.divul {
+  display: flex;
+  flex-direction: column;
+}
+
+.divl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.divlroneosg,
+.divlrtwoosg,
+.divlrthreeosg,
+.divlrfourosg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.divlroner,
+.divlronel,
+.divlrtwor,
+.divlrtwol,
+.divlrthreer,
+.divlrthreel,
+.divlrfourr,
+.divlrfourl {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 18px;
+}
+
+.headingosgben {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.paragraphosg {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 34px;
+}
+
+.numberben {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+color: #B9E937;
+}
+
+
+
+
+@media (max-width: 810px) {
+  .sectionben {
+    max-width: 714px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .divlroneosg,
+  .divlrtwoosg,
+  .divlrthreeosg,
+  .divlrfourosg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+}
+
+
+@media (max-width: 430px){
+  .sectionben {
+    max-width: 302px;
+    width: 100%;
+    margin: auto;
+  }}

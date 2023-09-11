@@ -1,0 +1,142 @@
+.sectiontsq {
+  display: flex;
+  flex-direction: column;
+max-width: 1000px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 140px;
+
+}
+
+.maindiv1b {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+ 
+}
+
+.oneab {
+  font-family: 'Poppins';
+ 
+
+ 
+  color: #B9E937;
+  color: #B9E937;
+  font-size: 21.333px;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-left: 50%;
+  margin-right: 50%;
+  padding: 0%;
+
+}
+
+.onebb {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.maindiv2 {
+  display: flex;
+  gap: 24px;
+}
+
+.twoa,
+.twob,
+.twoc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.maindiv3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.circle1 {
+  width: 10.67px;
+  height: 10.67px;
+  background: #B9E937;
+  border-radius: 50%;
+}
+
+.circle2,
+.circle3 {
+  width: 10.67px;
+  height: 10.67px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+
+
+.readmore {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  color: #B9E937;
+}
+
+.bh {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #dbd9dd;
+
+
+}
+
+
+
+@media (max-width: 810px) {
+  .sectiontsq {
+    max-width: 714px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+
+  .partion2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carddiv {
+    width: calc(50%); /* Adjust the width as per your requirement */
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .maindivlower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .sectiontsq {
+    max-width: 342px;
+    width: 100%;
+    margin: auto;
+  }}

@@ -1,0 +1,12 @@
+
+.getintouch {
+padding-top: 200px;
+padding-bottom: 200px;
+margin-top: 0%;
+}
+@media (max-width: 430px) {
+
+    .getintouch {
+        padding-top: 100px;
+        padding-bottom: 100px;}}
+  
